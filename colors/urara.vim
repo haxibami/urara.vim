@@ -119,37 +119,11 @@ call s:hi("SpellRare",          "NONE",           "",               "NONE",     
 call s:hi("Visual",             "NONE",           s:urara1_gui,     "NONE",             s:urara2_term,  "","")
 call s:hi("VisualNOS",          "NONE",           s:urara1_gui,     "NONE",             s:urara2_term,  "","")
 
-"call s:hi("ColorColumn", "", s:nord1_gui, "NONE", s:nord1_term, "", "")
-"call s:hi("Cursor", s:nord0_gui, s:nord4_gui, "", "NONE", "", "")
-"call s:hi("CursorLine", "", s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
-"call s:hi("Error", s:nord4_gui, s:nord11_gui, "", s:nord11_term, "", "")
-"call s:hi("iCursor", s:nord0_gui, s:nord4_gui, "", "NONE", "", "")
-"call s:hi("LineNr", s:nord3_gui, "NONE", s:nord3_term, "NONE", "", "")
-"call s:hi("MatchParen", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "", "")
-"call s:hi("NonText", s:nord2_gui, "", s:nord3_term, "", "", "")
-"call s:hi("Normal", s:nord4_gui, s:nord0_gui, "NONE", "NONE", "", "")
-"call s:hi("Pmenu", s:nord4_gui, s:nord2_gui, "NONE", s:nord1_term, "NONE", "")
-"call s:hi("PmenuSbar", s:nord4_gui, s:nord2_gui, "NONE", s:nord1_term, "", "")
-"call s:hi("PmenuSel", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "", "")
-"call s:hi("PmenuThumb", s:nord8_gui, s:nord3_gui, "NONE", s:nord3_term, "", "")
-"call s:hi("SpecialKey", s:nord3_gui, "", s:nord3_term, "", "", "")
-"call s:hi("SpellBad", s:nord11_gui, s:nord0_gui, s:nord11_term, "NONE", "undercurl", s:nord11_gui)
-"call s:hi("SpellCap", s:nord13_gui, s:nord0_gui, s:nord13_term, "NONE", "undercurl", s:nord13_gui)
-"call s:hi("SpellLocal", s:nord5_gui, s:nord0_gui, s:nord5_term, "NONE", "undercurl", s:nord5_gui)
-"call s:hi("SpellRare", s:nord6_gui, s:nord0_gui, s:nord6_term, "NONE", "undercurl", s:nord6_gui)
-"call s:hi("Visual", "", s:nord2_gui, "", s:nord1_term, "", "")
-"call s:hi("VisualNOS", "", s:nord2_gui, "", s:nord1_term, "", "")
-
 " Neovim
 call s:hi("healthError",        s:urara5_gui,     s:urara2_gui,     s:urara5_term,      s:urara2_term,  "","")
 call s:hi("healthSuccess",      s:urara7_gui,     s:urara2_gui,     s:urara7_term,      s:urara2_term,  "","")
 call s:hi("healthWarning",      s:urara6_gui,     s:urara2_gui,     s:urara6_term,      s:urara2_term,  "","")
 call s:hi("TermCursorNC",       s:urara0_gui,     s:urara3_gui,     s:urara0_term,      s:urara2_term,  "","")
-
-"call s:hi("healthError", s:nord11_gui, s:nord1_gui, s:nord11_term, s:nord1_term, "", "")
-"call s:hi("healthSuccess", s:nord14_gui, s:nord1_gui, s:nord14_term, s:nord1_term, "", "")
-"call s:hi("healthWarning", s:nord13_gui, s:nord1_gui, s:nord13_term, s:nord1_term, "", "")
-"call s:hi("TermCursorNC", "", s:nord1_gui, "", s:nord1_term, "", "")
 
 " Mark
 call s:hi("CursorColumn",       "NONE",           s:urara1_gui,     "NONE",     s:urara2_term,  "","")
@@ -158,20 +132,8 @@ call s:hi("Folded",             s:urara3_gui,     s:urara1_gui,     s:urara2_ter
 call s:hi("FoldColumn",         s:urara2_gui,     s:urara1_gui,     s:urara2_term,      s:urara0_term,  "","")
 call s:hi("SignColumn",         s:urara2_gui,     s:urara1_gui,     s:urara2_term,      s:urara0_term,  "","")
 
-"call s:hi("CursorColumn", "", s:nord1_gui, "NONE", s:nord1_term, "", "")
-"if g:nord_cursor_line_number_background == 0
-"  call s:hi("CursorLineNr", s:nord4_gui, "", "NONE", "", "NONE", "")
-"else
-"  call s:hi("CursorLineNr", s:nord4_gui, s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
-"endif
-"call s:hi("Folded", s:nord3_gui, s:nord1_gui, s:nord3_term, s:nord1_term, s:bold, "")
-"call s:hi("FoldColumn", s:nord3_gui, s:nord0_gui, s:nord3_term, "NONE", "", "")
-"call s:hi("SignColumn", s:nord1_gui, s:nord0_gui, s:nord1_term, "NONE", "", "")
-
 " Navigation
 call s:hi("Directory",          s:urara9_gui,     "",               s:urara9_term,      "",             "","")
-
-"call s:hi("Directory", s:nord8_gui, "", s:nord8_term, "NONE", "", "")
 
 " Prompt
 call s:hi("EndOfBuffer",        s:urara1_gui,     "",               s:urara2_term,      "",             "","")
@@ -188,32 +150,10 @@ call s:hi("StatusLineTermNC",   s:urara3_gui,     s:urara2_gui,     s:urara4_ter
 call s:hi("WarningMsg",         s:urara0_gui,     s:urara5_gui,     "",                 s:urara5_term,  "","")
 call s:hi("WildMenu",           s:urara0_gui,     s:urara4_gui,     s:urara0_term,      s:urara4_term,  "","")
 
-"call s:hi("EndOfBuffer", s:nord1_gui, "", s:nord1_term, "NONE", "", "")
-"call s:hi("ErrorMsg", s:nord4_gui, s:nord11_gui, "NONE", s:nord11_term, "", "")
-"call s:hi("ModeMsg", s:nord4_gui, "", "", "", "", "")
-"call s:hi("MoreMsg", s:nord8_gui, "", s:nord8_term, "", "", "")
-"call s:hi("Question", s:nord4_gui, "", "NONE", "", "", "")
-"if g:nord_uniform_status_lines == 0
-"  call s:hi("StatusLine", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "NONE", "")
-"  call s:hi("StatusLineNC", s:nord4_gui, s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
-"  call s:hi("StatusLineTerm", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "NONE", "")
-"  call s:hi("StatusLineTermNC", s:nord4_gui, s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
-"else
-"  call s:hi("StatusLine", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "NONE", "")
-"  call s:hi("StatusLineNC", s:nord4_gui, s:nord3_gui, "NONE", s:nord3_term, "NONE", "")
-"  call s:hi("StatusLineTerm", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "NONE", "")
-"  call s:hi("StatusLineTermNC", s:nord4_gui, s:nord3_gui, "NONE", s:nord3_term, "NONE", "")
-"endif
-"call s:hi("WarningMsg", s:nord0_gui, s:nord13_gui, s:nord1_term, s:nord13_term, "", "")
-"call s:hi("WildMenu", s:nord8_gui, s:nord1_gui, s:nord8_term, s:nord1_term, "", "")
-
 " Search
 call s:hi("IncSearch",          "NONE",           "",               "NONE",             "",             "reverse", "")
 "term=reverse              cterm=reverse
 call s:hi("Search",             s:urara1_gui,     s:urara6_gui,     s:urara2_term,      s:urara6_term,  "","")
-
-"call s:hi("IncSearch", s:nord6_gui, s:nord10_gui, s:nord6_term, s:nord10_term, s:underline, "")
-"call s:hi("Search", s:nord1_gui, s:nord8_gui, s:nord1_term, s:nord8_term, "NONE", "")
 
 " Tab/Window
 call s:hi("TabLine",            s:urara2_gui,     s:urara0_gui,     "NONE",             s:urara0_term,  "NONE", "")
@@ -224,16 +164,6 @@ call s:hi("TabLineSel",         s:urara3_gui,     s:urara0_gui,     s:urara2_ter
 call s:hi("Title",              s:urara6_gui,     "",               s:urara6_term,      "",             "","")
 call s:hi("VertSplit",          s:urara0_gui,     s:urara1_gui,     s:urara0_term,      s:urara0_term,  "","")     
 "cterm=NONE
-
-"call s:hi("TabLine", s:nord4_gui, s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
-"call s:hi("TabLineFill", s:nord4_gui, s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
-"call s:hi("TabLineSel", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "NONE", "")
-"call s:hi("Title", s:nord4_gui, "", "NONE", "", "NONE", "")
-"if g:nord_bold_vertical_split_line == 0
-"  call s:hi("VertSplit", s:nord2_gui, s:nord0_gui, s:nord3_term, "NONE", "NONE", "")
-"else
-"  call s:hi("VertSplit", s:nord2_gui, s:nord1_gui, s:nord3_term, s:nord1_term, "NONE", "")
-"endif
 
 " Syntax Base
 "hi Boolean
@@ -271,37 +201,6 @@ call s:hi("Type",               s:urara10_gui,    "",               s:urara10_te
 "hi Typedef              
 call s:hi("WhiteSpace",         s:urara4_gui,     "",               s:urara4_term,      "",             "","")
 
-"call s:hi("Boolean", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("Character", s:nord14_gui, "", s:nord14_term, "", "", "")
-"call s:hi("Comment", s:nord3_gui_bright, "", s:nord3_term, "", s:italicize_comments, "")
-"call s:hi("Conceal", "", "NONE", "", "NONE", "", "")
-"call s:hi("Conditional", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("Constant", s:nord4_gui, "", "NONE", "", "", "")
-"call s:hi("Decorator", s:nord12_gui, "", s:nord12_term, "", "", "")
-"call s:hi("Define", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("Delimiter", s:nord6_gui, "", s:nord6_term, "", "", "")
-"call s:hi("Exception", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("Float", s:nord15_gui, "", s:nord15_term, "", "", "")
-"call s:hi("Function", s:nord8_gui, "", s:nord8_term, "", "", "")
-"call s:hi("Identifier", s:nord4_gui, "", "NONE", "", "NONE", "")
-"call s:hi("Include", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("Keyword", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("Label", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("Number", s:nord15_gui, "", s:nord15_term, "", "", "")
-"call s:hi("Operator", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
-"call s:hi("PreProc", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
-"call s:hi("Repeat", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("Special", s:nord4_gui, "", "NONE", "", "", "")
-"call s:hi("SpecialChar", s:nord13_gui, "", s:nord13_term, "", "", "")
-"call s:hi("SpecialComment", s:nord8_gui, "", s:nord8_term, "", s:italicize_comments, "")
-"call s:hi("Statement", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("StorageClass", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("String", s:nord14_gui, "", s:nord14_term, "", "", "")
-"call s:hi("Structure", s:nord9_gui, "", s:nord9_term, "", "", "")
-"call s:hi("Tag", s:nord4_gui, "", "", "", "", "")
-"call s:hi("Todo", s:nord13_gui, "NONE", s:nord13_term, "NONE", "", "")
-"call s:hi("Type", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
-"call s:hi("Typedef", s:nord9_gui, "", s:nord9_term, "", "", "")
 "hi! link Annotation Decorator
 "hi! link Macro Define
 "hi! link PreCondit PreProc
@@ -442,12 +341,6 @@ hi default link GitGutterAdd              GitAddSign
 hi default link GitGutterChange           GitChangeSign
 hi default link GitGutterDelete           GitDeleteSign
 hi default link GitGutterChangeDelete     GitChangeDeleteSign
-
-"call s:hi("GitGutterAdd", s:nord14_gui, "", s:nord14_term, "", "", "")
-"call s:hi("GitGutterChange", s:nord13_gui, "", s:nord13_term, "", "", "")
-"call s:hi("GitGutterChangeDelete", s:nord11_gui, "", s:nord11_term, "", "", "")
-"call s:hi("GitGutterDelete", s:nord11_gui, "", s:nord11_term, "", "", "")
-
 
 " Languages
 
