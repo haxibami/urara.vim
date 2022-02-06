@@ -1,21 +1,21 @@
-let s:urara0_gui = [ '#211921', 16 ] " black
-let s:urara1_gui = [ '#332433', 53 ]
-let s:urara2_gui = [ '#664266', 96 ]
-let s:urara3_gui = [ '#998299', 102 ]
-let s:urara4_gui = [ '#d9ced9', 188 ]
-let s:urara4_gui_br = [ '#f2e6f2', 231 ]
+let s:urara0_gui = [ '#1c1921', 16 ] " black
+let s:urara1_gui = [ '#292433', 53 ]
+let s:urara2_gui = [ '#4e4266', 96 ]
+let s:urara3_gui = [ '#8a8299', 102 ]
+let s:urara4_gui = [ '#d2ced9', 188 ]
+let s:urara4_gui_br = [ '#edebef', 231 ]
 let s:urara5_gui = [ '#d9989c',  181 ]
 let s:urara5_gui_br = [ '#e6bbbe', 224 ]
 let s:urara6_gui = [ '#d9c77e', 186 ]
 let s:urara6_gui_br = [ '#e4d7a4', 223 ]
-let s:urara7_gui = [ '#9acf86', 150 ]
-let s:urara7_gui_br = [ '#b4cea5', 151 ]
+let s:urara7_gui = [ '#abbf86', 150 ]
+let s:urara7_gui_br = [ '#b8d2aa', 151 ]
 let s:urara8_gui = [ '#86bfb6', 115 ]
 let s:urara8_gui_br = [ '#a5cec7', 152 ]
 let s:urara9_gui = [ '#a6b4de',  146 ]
 let s:urara9_gui_br = [ '#cbd3eb', 189 ]
-let s:urara10_gui = [ '#b686bf', 175 ]
-let s:urara10_gui_br = [ '#c7a5ce', 182 ]
+let s:urara10_gui = [ '#9986bf', 175 ]
+let s:urara10_gui_br = [ '#b7aad2', 182 ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
