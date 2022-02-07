@@ -1,3 +1,5 @@
+" lightline color theme
+
 let s:urara0_gui = [ '#1c1921', 16 ] " black
 let s:urara1_gui = [ '#292433', 53 ]
 let s:urara2_gui = [ '#4e4266', 96 ]
