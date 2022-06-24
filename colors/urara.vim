@@ -126,7 +126,7 @@ call s:hi("healthWarning",      s:urara6_gui,     s:urara2_gui,     s:urara6_ter
 call s:hi("TermCursorNC",       s:urara0_gui,     s:urara3_gui,     s:urara0_term,      s:urara2_term,  "","")
 
 " Mark
-call s:hi("CursorColumn",       "NONE",           s:urara1_gui,     "NONE",     s:urara2_term,  "","")
+call s:hi("CursorColumn",       "NONE",           s:urara1_gui,     "NONE",             s:urara2_term,  "","")
 call s:hi("CursorLineNr",       s:urara4_gui_br,  s:urara1_gui,     s:urara4_term_br,   s:urara2_term,  "","")
 call s:hi("Folded",             s:urara3_gui,     s:urara1_gui,     s:urara2_term,      s:urara0_term,  "","")
 call s:hi("FoldColumn",         s:urara2_gui,     s:urara1_gui,     s:urara2_term,      s:urara0_term,  "","")
@@ -453,6 +453,45 @@ hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
 hi! link svssBraces Delimiter
 hi! link swiftIdentifier Normal
+hi! link TSAttribute Special
+hi! link TSBoolean Constant
+hi! link TSCharacter Constant
+hi! link TSComment Comment
+hi! link TSConstructor Normal
+hi! link TSConditional Statement
+hi! link TSConstant Constant
+hi! link TSConstBuiltin Constant
+hi! link TSConstMacro Constant
+hi! link TSError Error
+hi! link TSException Statement
+hi! link TSField Normal
+hi! link TSFloat Constant
+hi! link TSInclude Statement
+hi! link TSKeyword Statement
+hi! link TSKeywordFunction Function
+hi! link TSLabel Special
+hi! link TSNamespace Statement
+hi! link TSNumber Constant
+hi! link TSOperator Normal
+hi! link TSParameter Normal
+hi! link TSParameterReference Normal
+hi! link TSProperty TSField
+hi! link TSPunctDelimiter Normal
+hi! link TSPunctBracket Normal
+hi! link TSPunctSpecial Special
+hi! link TSRepeat Statement
+hi! link TSString String
+hi! link TSStringRegex String
+hi! link TSStringEscape Special
+hi! link TSTag htmlTagName
+hi! link TSTagAttribute htmlArg
+hi! link TSTagDelimiter htmlTagName
+hi! link TSText Normal
+hi! link TSTitle Title
+hi! link TSType Type
+hi! link TSTypeBuiltin Type
+hi! link TSVariable Normal
+hi! link TSVariableBuiltin Statement
 hi! link typescriptAjaxMethods Normal
 hi! link typescriptBraces Normal
 hi! link typescriptEndColons Normal
