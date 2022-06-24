@@ -126,7 +126,7 @@ call s:hi("healthWarning",      s:urara6_gui,     s:urara2_gui,     s:urara6_ter
 call s:hi("TermCursorNC",       s:urara0_gui,     s:urara3_gui,     s:urara0_term,      s:urara2_term,  "","")
 
 " Mark
-call s:hi("CursorColumn",       "NONE",           s:urara1_gui,     "NONE",     s:urara2_term,  "","")
+call s:hi("CursorColumn",       "NONE",           s:urara1_gui,     "NONE",             s:urara2_term,  "","")
 call s:hi("CursorLineNr",       s:urara4_gui_br,  s:urara1_gui,     s:urara4_term_br,   s:urara2_term,  "","")
 call s:hi("Folded",             s:urara3_gui,     s:urara1_gui,     s:urara2_term,      s:urara0_term,  "","")
 call s:hi("FoldColumn",         s:urara2_gui,     s:urara1_gui,     s:urara2_term,      s:urara0_term,  "","")
@@ -220,12 +220,30 @@ call s:hi("HintSign",           s:urara7_gui,     "",               s:urara7_ter
 call s:hi("ErrorFloat",         s:urara5_gui,     s:urara1_gui,     s:urara5_term,      s:urara2_term,  "","")
 call s:hi("WarningFloat",       s:urara6_gui,     s:urara1_gui,     s:urara6_term,      s:urara2_term,  "","")
 call s:hi("InfoFloat",          s:urara7_gui,     s:urara1_gui,     s:urara7_term,      s:urara2_term,  "","")
-call s:hi("HintFloat",          s:urara7_gui,     s:urara1_gui,     s:urara7_term,      s:urara2_term,   "","")
+call s:hi("HintFloat",          s:urara7_gui,     s:urara1_gui,     s:urara7_term,      s:urara2_term,  "","")
 
 call s:hi("ErrorHighlight",     "",               "",               s:urara0_term,      s:urara5_term,  "underline",s:urara5_gui)
 call s:hi("WarningHighlight",   "",               "",               s:urara0_term,      s:urara6_term,  "underline",s:urara6_gui)
 call s:hi("InfoHighlight",      "",               "",               s:urara0_term,      s:urara7_term,  "underline",s:urara7_gui)
 call s:hi("HintHighlight",      "",               "",               s:urara0_term,      s:urara7_term,  "underline",s:urara7_gui)
+call s:hi("TSFunction",         s:urara10_gui,    "",               s:urara10_term,     "",             "","")
+call s:hi("TSFunctionBuiltin",  s:urara10_gui,    "",               s:urara10_term,     "",             "","")
+call s:hi("TSFunctionMacro",    s:urara10_gui,    "",               s:urara10_term,     "",             "","")
+call s:hi("TSMethod",           s:urara10_gui,    "",               s:urara10_term,     "",             "","")
+call s:hi("TSURI",              s:urara9_gui,     "",               s:urara9_term,      "",             "underline","")
+call s:hi("DiagnosticUnderlineInfo","",           "",               s:urara9_term,      "",             "underline","")
+call s:hi("DiagnosticInfo",     s:urara9_gui,     "",               s:urara9_term,      "",             "","")
+call s:hi("DiagnosticSignInfo", s:urara9_gui,     s:urara0_gui,     s:urara9_term,      s:urara0_term,  "","")
+call s:hi("DiagnosticUnderlineHint","",           "",               s:urara2_term,      "",             "underline","")
+call s:hi("DiagnosticHint",     s:urara3_gui,     "",               s:urara2_term,      "",             "","")
+call s:hi("DiagnosticSignHint", s:urara3_gui,     s:urara0_gui,     s:urara2_term,      s:urara0_term,  "","")
+call s:hi("DiagnosticUnderlineWarn","",           "",               s:urara6_term,      "",             "underline","")
+call s:hi("DiagnosticWarn",     s:urara6_gui,     "",               s:urara6_term,      "",             "","")
+call s:hi("DiagnosticSignWarn", s:urara6_gui,     s:urara0_gui,     s:urara6_term,      s:urara0_term,  "","")
+call s:hi("DiagnosticUnderlineError","",          "",               s:urara5_term,      "",             "underline","")
+call s:hi("DiagnosticError",    s:urara5_gui,     "",               s:urara5_term,      "",             "","")
+call s:hi("DiagnosticSignError",s:urara5_gui,     s:urara0_gui,     s:urara5_term,      s:urara0_term,  "","")
+call s:hi("DiagnosticFloatingHint",s:urara4_gui,  s:urara1_gui,     s:urara4_term,      s:urara2_term,  "","")
 
 "hi ReferenceText
 "hi ReferenceRead
@@ -453,6 +471,45 @@ hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
 hi! link svssBraces Delimiter
 hi! link swiftIdentifier Normal
+hi! link TSAttribute Special
+hi! link TSBoolean Constant
+hi! link TSCharacter Constant
+hi! link TSComment Comment
+hi! link TSConstructor Normal
+hi! link TSConditional Statement
+hi! link TSConstant Constant
+hi! link TSConstBuiltin Constant
+hi! link TSConstMacro Constant
+hi! link TSError Error
+hi! link TSException Statement
+hi! link TSField Normal
+hi! link TSFloat Constant
+hi! link TSInclude Statement
+hi! link TSKeyword Statement
+hi! link TSKeywordFunction Function
+hi! link TSLabel Special
+hi! link TSNamespace Statement
+hi! link TSNumber Constant
+hi! link TSOperator Normal
+hi! link TSParameter Normal
+hi! link TSParameterReference Normal
+hi! link TSProperty TSField
+hi! link TSPunctDelimiter Normal
+hi! link TSPunctBracket Normal
+hi! link TSPunctSpecial Special
+hi! link TSRepeat Statement
+hi! link TSString String
+hi! link TSStringRegex String
+hi! link TSStringEscape Special
+hi! link TSTag htmlTagName
+hi! link TSTagAttribute htmlArg
+hi! link TSTagDelimiter htmlTagName
+hi! link TSText Normal
+hi! link TSTitle Title
+hi! link TSType Type
+hi! link TSTypeBuiltin Type
+hi! link TSVariable Normal
+hi! link TSVariableBuiltin Statement
 hi! link typescriptAjaxMethods Normal
 hi! link typescriptBraces Normal
 hi! link typescriptEndColons Normal
