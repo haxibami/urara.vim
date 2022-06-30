@@ -100,7 +100,7 @@ call s:hi("Underline",      "","","","","underline","")
 " General
 call s:hi("ColorColumn",        "",               s:urara1_gui,     "",                 s:urara2_term,  "","")
 call s:hi("Cursor",             s:urara10_gui,    s:urara4_gui_br,  "",                 "",             "","")
-call s:hi("CursorLine",         s:urara4_gui_br,  s:urara1_gui,     "",                 "",             "","")
+call s:hi("CursorLine",         s:urara4_gui_br,  s:urara0_gui,     "",                 "",             "","")
 call s:hi("Error",              s:urara5_gui,     s:urara0_gui,     s:urara5_term,      s:urara0_term,  "","")
 call s:hi("LineNr",             s:urara2_gui,     s:urara0_gui,     s:urara4_term,      s:urara0_term,  "","")
 call s:hi("MatchParen",         s:urara4_gui_br,  s:urara2_gui,     s:urara4_term_br,   s:urara2_term,  "","")
@@ -127,7 +127,7 @@ call s:hi("TermCursorNC",       s:urara0_gui,     s:urara3_gui,     s:urara0_ter
 
 " Mark
 call s:hi("CursorColumn",       "NONE",           s:urara1_gui,     "NONE",             s:urara2_term,  "","")
-call s:hi("CursorLineNr",       s:urara4_gui_br,  s:urara1_gui,     s:urara4_term_br,   s:urara2_term,  "","")
+call s:hi("CursorLineNr",       s:urara4_gui_br,  s:urara0_gui,     s:urara4_term_br,   s:urara2_term,  "","")
 call s:hi("Folded",             s:urara3_gui,     s:urara1_gui,     s:urara2_term,      s:urara0_term,  "","")
 call s:hi("FoldColumn",         s:urara2_gui,     s:urara1_gui,     s:urara2_term,      s:urara0_term,  "","")
 call s:hi("SignColumn",         s:urara2_gui,     s:urara1_gui,     s:urara2_term,      s:urara0_term,  "","")
