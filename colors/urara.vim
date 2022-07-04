@@ -100,7 +100,7 @@ call s:hi("Underline",      "","","","","underline","")
 " General
 call s:hi("ColorColumn",        "",               s:urara1_gui,     "",                 s:urara2_term,  "","")
 call s:hi("Cursor",             s:urara10_gui,    s:urara4_gui_br,  "",                 "",             "","")
-call s:hi("CursorLine",         s:urara4_gui_br,  s:urara0_gui,     "",                 "",             "","")
+call s:hi("CursorLine",         s:urara4_gui_br,  s:urara1_gui,     "",                 "",             "","")
 call s:hi("Error",              s:urara5_gui,     s:urara0_gui,     s:urara5_term,      s:urara0_term,  "","")
 call s:hi("LineNr",             s:urara2_gui,     s:urara0_gui,     s:urara4_term,      s:urara0_term,  "","")
 call s:hi("MatchParen",         s:urara4_gui_br,  s:urara2_gui,     s:urara4_term_br,   s:urara2_term,  "","")
@@ -162,7 +162,7 @@ call s:hi("TabLineFill",        s:urara0_gui,     s:urara2_gui,     s:urara0_ter
 call s:hi("TabLineSel",         s:urara3_gui,     s:urara0_gui,     s:urara2_term,      s:urara0_term,  "","")
 "cterm=NONE
 call s:hi("Title",              s:urara6_gui,     "",               s:urara6_term,      "",             "","")
-call s:hi("VertSplit",          s:urara0_gui,     s:urara1_gui,     s:urara0_term,      s:urara0_term,  "","")     
+call s:hi("VertSplit",          s:urara0_gui,     s:urara4_gui,     s:urara0_term,      s:urara4_term,  "","")     
 "cterm=NONE
 
 " Syntax Base
@@ -520,4 +520,4 @@ hi! link typescriptIdentifier Statement
 hi! link typescriptMessage Normal
 hi! link typescriptNull Constant
 hi! link typescriptParens Normal
-
+hi! link WinSeparator VertSplit
