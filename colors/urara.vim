@@ -162,7 +162,7 @@ call s:hi("TabLineFill",        s:urara0_gui,     s:urara2_gui,     s:urara0_ter
 call s:hi("TabLineSel",         s:urara3_gui,     s:urara0_gui,     s:urara2_term,      s:urara0_term,  "","")
 "cterm=NONE
 call s:hi("Title",              s:urara6_gui,     "",               s:urara6_term,      "",             "","")
-call s:hi("VertSplit",          s:urara0_gui,     s:urara4_gui,     s:urara0_term,      s:urara4_term,  "","")     
+"call s:hi("VertSplit",          s:urara0_gui,     s:urara4_gui,     s:urara0_term,      s:urara4_term,  "","")     
 "cterm=NONE
 
 " Syntax Base
